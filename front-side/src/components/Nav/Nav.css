@@ -1,0 +1,77 @@
+/* NavBar Contener */
+nav {
+    background-color: #eee;
+    position: sticky;
+    top: 0;
+    z-index: 10000000;
+    padding: 0 1rem;
+
+}
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    width: 100%;
+}
+/* NavBar Logo  */
+.NavBar .logo{
+    font-family: Segoe Print;
+    color:var(--text-color);
+}
+.NavBar .logo h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.NavBar .logo h1 sub{
+    display: inline-block;
+    font-size: 22px;
+    margin-left: -5px;
+}
+
+/* NavBar Text Links   */
+
+.links-nav a{
+    margin: 0 1rem;
+    color:var(--text-color);
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-style: italic;
+    transition: all .3s ease-in-out;
+}
+.links-nav a:hover{
+    opacity: .5;
+}
+
+/* NavBar Icons  */
+.cart{
+    position: relative;
+}
+.icon{
+font-size: 20px;
+margin: 0 13px;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+.icon:hover{
+    opacity: .5;
+}
+
+/* Mobil  Devices Style*/
+
+@media (max-device-width:700px) {
+    .NavBar .logo h1{
+        font-size: 25px;
+    }
+    .NavBar .logo h1 sub{
+        font-size:10px; 
+    }
+    .icon{
+        font-size: 20px;
+    margin: 0 7px;
+
+    }
+}

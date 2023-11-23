@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "item": {
+        "id": 2,
+        "title": "Oxford Shirt Regular",
+        "direction": " Cotton ShirtPlaid Cotton ShirtPlaid Cotton ShirtPlaid Cotton ShirtPlaid Cotton Shirt",
+        "image": "/img/cloths/cloth (2).png",
+        "price": 200,
+        "offer": 150,
+        "type_sale": true,
+        "new": false,
+        "sale": 50,
+        "reviw": 2,
+        "size": {
+          "s": true,
+          "m": false,
+          "l": false,
+          "xl": false,
+          "xxl": false,
+          "xxxl": false
+        }
+      },
+      "id": 1
+    },
+    {
+      "item": {
+        "id": 5,
+        "title": "Plaid Cotton Shirt",
+        "direction": " ShirtPlaid Cotton ShirtPlaid Cotton ShirtPlaid Cotton ShirtPlaid Cotton Shirt",
+        "image": "/img/cloths/cloth (1).png",
+        "price": 150,
+        "type_sale": true,
+        "new_product": false,
+        "sale": null,
+        "reviw": 4,
+        "size": {
+          "s": true,
+          "m": false,
+          "l": false,
+          "xl": false,
+          "xxl": false,
+          "xxxl": false
+        }
+      },
+      "id": 4
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
